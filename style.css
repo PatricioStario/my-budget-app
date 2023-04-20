@@ -13,10 +13,10 @@ body {
   align-items: center;
   min-height: 100vh;
   margin: 0;
-  background-color: rgb(33, 50, 68);
+  background-color: #E2D3C4;
 }
 .title {
-  background-color: silver;
+  background-color: #35312F;  
   opacity: 0.8;
   text-align: center;
   border-radius: 1rem;
@@ -25,17 +25,20 @@ body {
 .container {
   padding: 30px 40px;
   border-radius: 1rem;
-  border: 3px solid white;
+  border: 3px solid whitesmoke;
   margin: 25px;
   /* width: 350px; */
-  background-color: rgba(16, 97, 134, 0.685);
+  background-color: #E0A96D;
 }
+
+/* #783937FF; */
 
 h1 {
   letter-spacing: 2px;
   margin: 0;
   margin: 10px 0 10px;
   text-transform: uppercase;
+  color: whitesmoke;
 }
 
 h3 {
@@ -56,14 +59,13 @@ h4 {
 }
 
 .income-expense {
-  background-color: skyblue;
+  background-color: #A4413A;
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
   padding: 20px;
   border-radius: 1rem;
-  box-shadow: 0 5px 6px rgba(58, 73, 80, 0.685),
-    0 5px 6px rgba(58, 73, 80, 0.685);
+  box-shadow: 0 5px 6px #B85042;
 }
 
 .income-expense > div {
@@ -85,16 +87,16 @@ h4 {
 }
 
 .income {
-  color: green;
+  color: #E7E8D1;
 }
 .expense {
-  color: #c34234d3;
+  color: #F7C5CC;
 }
 #balance {
-  color: rgb(72, 90, 255);
+  color: #A7BEAE;
 }
 .bg-dark {
-  background-color: black;
+  background-color: #35312F;
   margin: 0 2px;
 
   border-radius: 3px;
@@ -123,19 +125,19 @@ label {
   padding: 8px 0;
   border-radius: 1rem;
   outline: none;
-  background-color: steelblue;
-  color: whitesmoke;
+  background-color: #A4413A;
+  color: azure;
   letter-spacing: 3px;
   text-transform: uppercase;
   font-size: 12px;
 }
 .btn:hover {
-  color: steelblue;
-  background-color: whitesmoke;
+  color: #A4413A;
+  background-color: #E2D3C4;
 }
 
 .delete-btn {
-  background-color: rgb(139, 192, 235);
+  background-color: #cc313d;
   border-radius: 1rem;
   outline: none;
   float: right;
@@ -162,7 +164,7 @@ ul li {
 }
 
 .fa {
-  color: steelblue;
+  color: red;
 }
 .fa:hover {
   transform: rotate(20deg);
@@ -177,7 +179,7 @@ ul li {
 }
 
 .list {
-  color: azure;
+  color: black;
 }
 
 .minus,
@@ -187,7 +189,7 @@ ul li {
 }
 .minus:hover,
 .plus:hover {
-  background-color: rgb(114, 114, 114);
+  background-color: #E7E8D1;
   cursor: pointer;
 }
 footer {
